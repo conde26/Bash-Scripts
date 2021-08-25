@@ -30,7 +30,7 @@ if [ $respuesta = "s" ]; then
 	if [ "$test" -eq 1 ]; then
 		echo "\n\n${Amarillo}[!] ${Rosa}$usuario${Rojo} ya existe en el sistema!${Normal}"
 	else
-		echo "\n\n${Verde}[*] ${Amarillo}Agregado el usuario: ${Rosa}$usuario${Normal}\n\n"
+		echo "\n\n${Verde}[*] ${Amarillo}Agregando el usuario: ${Rosa}$usuario${Normal}\n\n"
 		adduser $usuario
 		echo "\n\n${Verde}[*] ${Amarillo}El usuario ${Rosa}$usuario${Amarillo} se ha añadido al sistema ${Normal}"
 	fi
