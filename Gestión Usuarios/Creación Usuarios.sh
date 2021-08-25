@@ -9,7 +9,7 @@ Normal="\e[m"
 Verde="\e[32m"
 Rojo="\e[91m"
 
-#Función Ctrl +c
+#Función Ctrl + c
 trap ctrl_c iNT
 
 ctrl_c(){
