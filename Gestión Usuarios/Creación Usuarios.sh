@@ -35,7 +35,7 @@ if [ $respuesta = "s" ]; then
 		echo "\n\n${Verde}[*] ${Amarillo}El usuario ${Rosa}$usuario${Amarillo} se ha añadido al sistema ${Normal}"
 	fi
 else
-	clear && echo "${Verde}[!]${Amarillo} Espero que te haya ayudado${Normal}!"
+	clear && echo "${Verde}[!]${Amarillo} Espero que te haya ayudado!${Normal}"
 fi
 
 
