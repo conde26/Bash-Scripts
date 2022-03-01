@@ -8,5 +8,5 @@ El siguiente script nos permite saber antes que Sistema Operativo no estamos enf
 - ![#f03c15]**TTL de 0 a 64** -> Equipo Linux
 - **TTL de 65 a 128** -> Equipo Windows 
 
-- ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `#f03c15`
+- ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `Prueba`
 - ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) `#c5f015`
