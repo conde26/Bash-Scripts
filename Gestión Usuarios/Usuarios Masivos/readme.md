@@ -13,4 +13,5 @@ Una vez que le hemos dado permisos, podremos ejecutarlo necesitaremos un fichero
 ```bash
 passwd usuario
 ``` 
+
 ![Usuarios Masivos](https://github.com/conde26/Bash-Scripts/blob/main/Gesti%C3%B3n%20Usuarios/Usuarios%20Masivos/explic.PNG)
