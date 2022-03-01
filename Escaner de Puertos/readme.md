@@ -17,7 +17,7 @@ Para hacer un escaneo básico de la ip, solo es necesario indicar la opción -i,
 
 ### Escaneo de Ip exportando datos 
 Para hacer un escaneo exportando las evidencias agregamos el parametro -o e indicamos un nombre al fichero de salida
-```bash 
+```Bash
 ./ScannerPort -i 127.0.0.1 -o Puertos_Abiertos
 ```
 ![Escaneo IP 2](https://github.com/conde26/Bash-Scripts/blob/main/Escaner%20de%20Puertos/imagenes/Escaneo_IP_Exportando.PNG)
