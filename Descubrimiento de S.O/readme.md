@@ -6,6 +6,6 @@ El siguiente script nos permite saber antes que Sistema Operativo no estamos enf
 
 ### Nota
 ```diff
-@@+ TTL de 0 a 64 -> Equipo Linux@@
-+ TTL de 65 a 128 -> Equipo Windows 
+@@ TTL de 0 a 64 -> Equipo Linux @@
+@@ TTL de 65 a 128 -> Equipo Windows @@
 ```
