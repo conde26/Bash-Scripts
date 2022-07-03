@@ -1,14 +1,13 @@
 #!/bin/bash
-#Autor: Jose Conde
-#Escaner de puertos
+#Autor: Conde
 
+#Colours
+Verde="\e[0;32m\033[1m"
+Normal="\033[0m\e[0m"
+Rojo="\e[0;31m\033[1m"
+Azul="\e[0;34m\033[1m"
+Amarillo="\e[0;33m\033[1m"
 
-#Paletilla de colores
-Amarillo="\e[93m"
-Rosa="\e[95m"
-Normal="\e[m"
-Verde="\e[32m"
-Rojo="\e[91m"
 
 #Función Ctrl + c
 trap ctrl_c iNT
@@ -54,4 +53,3 @@ for puerto in $(seq 1 65535); do
 		timeout 1 bash -c "echo '' > /dev/tcp/$ip/$puerto" 2>/dev/null && echo -e "${Verde}[*] ${Amarillo}Puerto $puerto - ${Verde}Abierto${Normal}" &
 	fi
 done; wait
-
