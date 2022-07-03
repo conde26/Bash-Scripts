@@ -10,13 +10,13 @@ Como ya sabemos, cuando estamos realizando auditorias web, tiramos de herramient
 
 ### Instalación 
 Para instalar la siguiente herramienta, usaremos los sigueintes comandos. 
-```bash 
+```bash
 wget -q https://raw.githubusercontent.com/conde26/Bash-Scripts/main/Fuzzing/fuzzer.sh
 chmod +x fuzzer.sh
 ```
 ### Uso 
 En primer lugar, si ejecutamos el binario sin ningún parámetro nos mostrará el panel de ayuda. 
-```bash 
+```bash
 ./fuzzer.sh 
 ```
 ![HelpPanel](https://github.com/conde26/Bash-Scripts/blob/main/Fuzzing/images/helpPanel.png)
