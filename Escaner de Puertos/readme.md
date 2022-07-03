@@ -1,5 +1,4 @@
-# Escaner de puertos en bash
-## Autor: Jose Conde 
+# Escaner de puertos en bash 
 
 ### Panel de ayuda 
 Para ver el panel de ayuda solo es necesario llamar a si mismo al script.
@@ -9,7 +8,7 @@ Para ver el panel de ayuda solo es necesario llamar a si mismo al script.
 ![Panel Ayuda](https://github.com/conde26/Bash-Scripts/blob/main/Escaner%20de%20Puertos/imagenes/Panel_Ayuda.png)
 
 ### Escaneo de Ip
-Para hacer un escaneo básico de la ip, solo es necesario indicar la opción -i, para indicar la ip a escanear
+Para hacer un escaneo básico de la ip, solo es necesario indicar la opción -i, para indicar la ip a escanear.
 ```bash 
 ./ScannerPort -i 127.0.0.1
 ```
