@@ -11,10 +11,9 @@ Como ya sabemos, cuando estamos realizando auditorias web, tiramos de herramient
 ### Instalación 
 Para instalar la siguiente herramienta, usaremos la siguiente cadena de comandos. 
 ```bash 
-sudo wget -q https://raw.githubusercontent.com/conde26/Bash-Scripts/main/Fuzzing/fuzzer.sh -o /usr/bin/fuzzer.sh 
-sudo chmod +x fuzzer.sh
+wget -q https://raw.githubusercontent.com/conde26/Bash-Scripts/main/Fuzzing/fuzzer.sh
+chmod +x fuzzer.sh
 ```
-
 ### Uso 
 En primer lugar, si ejecutamos el binario sin ningún parámetro nos mostrará el panel de ayuda. 
 ```bash 
